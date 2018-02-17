@@ -7,13 +7,21 @@ exports[`should render LoginPage correctly 1`] = `
   <div
     className="box-layout__box"
   >
-    <h1
+    <div
       className="box-layout__title"
     >
-      Expensify
-    </h1>
+      <img
+        alt="shrewdent"
+        height="50px"
+        src="/images/shrewdent.svg"
+        width="auto"
+      />
+      <h1>
+        Shrewdent
+      </h1>
+    </div>
     <p>
-      It's time to get your expenses under control
+      a shrewd, prudent approach to personal expensing
     </p>
     <button
       className="button"

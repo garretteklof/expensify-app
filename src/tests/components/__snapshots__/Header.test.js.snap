@@ -15,8 +15,14 @@ exports[`should render Header correctly 1`] = `
         replace={false}
         to="/dashboard"
       >
+        <img
+          alt="shrewdent"
+          height="50px"
+          src="/images/shrewdent.svg"
+          width="auto"
+        />
         <h1>
-          Expensify
+          Shrewdent
         </h1>
       </Link>
       <button

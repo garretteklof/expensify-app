@@ -16,12 +16,6 @@ exports[`should render EditExpensePage correctly 1`] = `
         >
           Update Expense
         </h1>
-        <button
-          className="button button--secondary"
-          onClick={[Function]}
-        >
-          Remove Expense
-        </button>
       </div>
     </div>
   </div>
@@ -38,6 +32,7 @@ exports[`should render EditExpensePage correctly 1`] = `
           "note": "",
         }
       }
+      onRemove={[Function]}
       onSubmit={[Function]}
     />
   </div>

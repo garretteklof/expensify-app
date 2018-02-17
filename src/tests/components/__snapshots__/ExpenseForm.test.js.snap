@@ -234,7 +234,12 @@ exports[`should render ExpenseForm correctly with expense data 1`] = `
     <button
       className="button"
     >
-      Update Expense
+      Update
+    </button>
+    <button
+      className="button button--secondary"
+    >
+      Delete
     </button>
   </div>
 </form>
