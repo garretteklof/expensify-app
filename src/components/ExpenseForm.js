@@ -92,7 +92,8 @@ export default class ExpenseForm extends React.Component {
 					>
 					</textarea>
 					<div>
-						<button className='button'>{this.props.expense ? 'Update Expense' : 'Add Expense'}</button>
+						<button className='button'>{this.props.expense ? 'Update' : 'Add Expense'}</button>
+						{this.props.expense && <button className='button button--secondary' onClick={this.props.onRemove}>Delete</button>}
 					</div>
 				</form>
 		)

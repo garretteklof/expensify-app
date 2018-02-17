@@ -1,6 +1,8 @@
 .box-layout {
 	align-items: center;
-	background: url('/images/bg.jpg');
+	background: linear-gradient(135deg, rgb(242,223,215) 0%, rgb(242,223,215) 10%, rgba(242,223,215, 0.20) 100%),
+							linear-gradient(315deg, rgb(242,223,215) 0%, rgb(242,223,215) 5%, rgba(242,223,215, 0.10) 100%),
+							url('/images/bg.jpg') no-repeat;
 	background-size: cover;
 	display: flex;
 	height: 100vh;
@@ -9,7 +11,7 @@
 }
 
 .box-layout__box {
-	background: fade-out(white, .15);
+	background: fade-out($babypowder, .1);
 	border-radius: 3px;
 	padding: $l-size $m-size;
 	text-align: center;
@@ -17,6 +19,9 @@
 }
 
 .box-layout__title {
-	margin: 0 0 $m-size 0;
+	h1 {
+	margin: 0;
 	line-height: 1;
+	font-weight: 300;
+	}
 }

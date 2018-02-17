@@ -1,5 +1,5 @@
 .header {
-	background: $dark-blue
+	background: $babypowder;
 }
 
 .header__content {
@@ -10,9 +10,14 @@
 }
 
 .header__title {
-	color: white;
 	text-decoration: none;
+	h1, img {
+		display: inline-block;
+    vertical-align: bottom;
+	}
 	h1 {
-		margin: 0;
+		color: $charcoal;
+		font-weight: 300;
+		margin: 0 0 0 $m-size;
 	}
 }

@@ -2,14 +2,17 @@
 	box-sizing: border-box; /*** react-dates ***/
 } 
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,700');
+
 html {
 	font-size: 62.5%;
 }
 
 body {
-	color: #dark-grey;
-	font-family: Helvetica, Arial, sans-serif;
+	color: $charcoal;
+	font-family: 'Roboto', sans-serif;
 	font-size: $m-size;
+	font-weight: 300;
 	line-height: 1.6;
 }
 
