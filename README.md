@@ -10,7 +10,7 @@ For a local copy, clone the repo and from the command line: `yarn install && yar
 ### Features
 * Create, update, and delete expenses.
 * Sort by date or amount, search by text, or filter expeneses within a specific date range.
-* Google Authentication
+* Each account is secure and private with Google Authentication.
 
 ## Running Tests
 
